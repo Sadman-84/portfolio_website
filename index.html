@@ -18,14 +18,15 @@
         </nav>
     </header>
 
-    <div id="banner">
-        <h1 id="big-h">Hi I'm Mohammad Sadman</h1>
-        <h3 id="sml-h">If you want to create your own website, <span>then I am the person who can help you out.</span></h3>
-        <p class="t4">I am a profetional website designer and devloper. Personal website, Office website, App based website, Personal blog site ... whatever you want I'm there to help you out. <details>For more details download my cv or send mail at rmsakib84@gmail.com </details> </p>
+    <div id="banner"><div id="banner-2">
+        <h1 id="big-h">Hi I'm <br> Mohammad Sadman</h1>
+        <h3 id="sml-h">If you want to create your own website, <br><span>then I am the person who can help you out.</span></h3>
+        <p class="t4">I am a profetional website designer and devloper. Personal website, Office website, App based website, Personal blog site ... whatever you want I'm there to help you out. </p>
         <button class="btn-t2"> Download <span id="cv">cv</span></button>
-        <button class="btn-t2"> Contact.</button>
+        <button class="btn-t2"> Contact.</button></div>
+        <img id="sad" src="https://user-images.githubusercontent.com/121635816/210848377-675fb488-38e8-4fe6-95d8-f59961054f90.png" >
+
     </div>
-    <img src="" alt="">
      
      
      
@@ -34,6 +35,45 @@
          *{
            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
            margin: 0px;
+         }
+         #banner-2{
+             margin: 50px;
+         }
+         .btn-t2{
+            background-color: orangered;
+            height: 45px;
+            border-radius: 10px;
+            color: white;
+            font-size: 15px;
+            width: 160px;
+            font-weight: 800;
+            border: 0px;
+            margin: 5px 0px 0px 30px;
+         }
+         #banner{
+            display: flex;
+         }
+         #big-h{
+            color: orangered;
+         font-weight: 800;
+         width: 450px;
+         }
+         #sml-h{
+            color: grey;
+            font-weight: 500;
+            width: 450px;
+         }
+         .t4{
+            width: 450px;
+         }
+          
+         #big-h,#sml-h,.t4{
+            border: 20px;
+            padding: 7px 15px;
+         }
+
+         #sad{
+            width: 200px;
          }
 
          .btn-t1{
